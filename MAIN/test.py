@@ -19,8 +19,8 @@ from aiogram.client.default import DefaultBotProperties
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
-TOKEN = '8035475015:AAHQL5W5pmOhynAOqP5u9U3iQbSseD0PbH8' 
-CHANNEL_ID = '-1002444623350'
+TOKEN = '7605790388:AAG3eU9kAeyvqfxI9SAEcYWaOoQ3e50KQqs' 
+CHANNEL_ID = '-1002197002727'
 required_channel = '@MRiNxDiLDOS'  # Replace with your actual channel username
 
 bot = telebot.TeleBot(TOKEN)
