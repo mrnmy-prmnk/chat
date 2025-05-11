@@ -18,7 +18,7 @@ threads = sys.argv[4]
 
 # Attack function
 def run_attack():
-    os.system(f"./smokey {ip} {port} {attack_time} {threads}")
+    os.system(f"./bgmi {ip} {port} {attack_time} {threads}")
 
 # Start attack in a daemon thread (will exit cleanly)
 attack_thread = threading.Thread(target=run_attack, daemon=True)
